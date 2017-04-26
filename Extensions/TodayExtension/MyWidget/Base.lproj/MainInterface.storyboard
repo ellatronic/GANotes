@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" customModule="MyWidget" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ft6-oW-KC0"/>
+                        <viewControllerLayoutGuide type="bottom" id="FKl-LY-JtV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="110"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="GcN-lo-r42">
+                                <rect key="frame" x="116" y="8" width="88.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.015686274510000001" green="0.0039215686269999999" blue="0.0078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Richard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPt-k0-698">
+                                <rect key="frame" x="27" y="47" width="102" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QP2-wL-fa2">
+                                <rect key="frame" x="129" y="60" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="printImCool" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="QCo-ok-da6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello iOSi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PxV-5s-Tne">
+                                <rect key="frame" x="206" y="-43" width="75" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="QP2-wL-fa2" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leadingMargin" constant="113" id="1dX-zU-Bog"/>
+                            <constraint firstItem="cPt-k0-698" firstAttribute="top" secondItem="GcN-lo-r42" secondAttribute="bottom" constant="18.5" id="50X-OI-mUp"/>
+                            <constraint firstItem="PxV-5s-Tne" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="47" id="5dN-kl-bz8"/>
+                            <constraint firstItem="QP2-wL-fa2" firstAttribute="top" secondItem="GcN-lo-r42" secondAttribute="bottom" constant="121.5" id="A7J-kj-BxU"/>
+                            <constraint firstItem="cPt-k0-698" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leadingMargin" constant="11" id="HPC-KE-gkC"/>
+                            <constraint firstItem="PxV-5s-Tne" firstAttribute="leading" secondItem="cPt-k0-698" secondAttribute="trailing" constant="77" id="MOV-8u-Iby"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="PxV-5s-Tne" secondAttribute="bottom" constant="132" id="Mc6-ma-WkQ"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="cPt-k0-698" secondAttribute="bottom" constant="132" id="NSn-WN-IAV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GcN-lo-r42" secondAttribute="trailing" constant="99.5" id="QFy-3d-2e7"/>
+                            <constraint firstItem="PxV-5s-Tne" firstAttribute="leading" secondItem="cPt-k0-698" secondAttribute="trailing" constant="77" id="T6W-XB-lJL"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="QP2-wL-fa2" secondAttribute="bottom" constant="20" id="Z6Z-nf-rbR"/>
+                            <constraint firstItem="GcN-lo-r42" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leadingMargin" constant="100" id="hUA-Gw-Eyh"/>
+                            <constraint firstItem="GcN-lo-r42" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="8" id="hxW-1k-Ydj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QP2-wL-fa2" secondAttribute="trailing" constant="129" id="lZX-zT-nyP"/>
+                            <constraint firstItem="cPt-k0-698" firstAttribute="top" secondItem="GcN-lo-r42" secondAttribute="bottom" constant="18.5" id="mFK-Ok-1rV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="PxV-5s-Tne" secondAttribute="trailing" constant="23" id="mNg-PS-VaD"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="110"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
