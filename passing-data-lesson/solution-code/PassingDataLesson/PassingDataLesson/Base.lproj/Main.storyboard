@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11198.2" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3Up-Oj-cFe">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Artist View Controller-->
+        <scene sceneID="YL0-iL-EFX">
+            <objects>
+                <tableViewController id="Dgv-he-RY7" customClass="ArtistViewController" customModule="PassingDataLesson" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Nzm-hr-iHk">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="nH0-WE-T9S">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="400"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Eminem" translatesAutoresizingMaskIntoConstraints="NO" id="mpa-Yg-Ova">
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="mpa-Yg-Ova" secondAttribute="height" multiplier="15:8" id="V1R-8G-hGD"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9m3-Bv-HTg">
+                                    <string key="text">To call Eminem hip-hop's Elvis is correct to a degree, but it's largely inaccurate. Certainly, Eminem was the first white rapper since the Beastie Boys to garner both sales and critical respect, but his impact exceeded this confining distinction. </string>
+                                    <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="18"/>
+                                    <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="9m3-Bv-HTg" firstAttribute="top" secondItem="mpa-Yg-Ova" secondAttribute="bottom" constant="16" id="Feb-JG-rbb"/>
+                                <constraint firstAttribute="trailingMargin" secondItem="9m3-Bv-HTg" secondAttribute="trailing" id="JU3-Ze-ZjP"/>
+                                <constraint firstItem="9m3-Bv-HTg" firstAttribute="leading" secondItem="nH0-WE-T9S" secondAttribute="leadingMargin" id="WKG-fd-xrO"/>
+                                <constraint firstAttribute="bottomMargin" secondItem="9m3-Bv-HTg" secondAttribute="bottom" constant="8" id="lSy-yE-9is"/>
+                                <constraint firstItem="mpa-Yg-Ova" firstAttribute="leading" secondItem="nH0-WE-T9S" secondAttribute="leading" id="nzt-Kx-mud"/>
+                                <constraint firstAttribute="trailing" secondItem="mpa-Yg-Ova" secondAttribute="trailing" id="yjT-Jj-0aM"/>
+                                <constraint firstItem="mpa-Yg-Ova" firstAttribute="top" secondItem="nH0-WE-T9S" secondAttribute="top" id="ylP-z1-5wq"/>
+                            </constraints>
+                        </view>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="eW6-g0-mkC" detailTextLabel="bNU-kX-A06" style="IBUITableViewCellStyleSubtitle" id="yM9-yW-faB">
+                                <rect key="frame" x="0.0" y="428" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yM9-yW-faB" id="Rq3-Gm-dlu">
+                                    <frame key="frameInset" width="375" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eW6-g0-mkC">
+                                            <frame key="frameInset" minX="15" minY="6" width="31.5" height="19.5"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bNU-kX-A06">
+                                            <frame key="frameInset" minX="15" minY="25.5" width="30.5" height="13.5"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Dgv-he-RY7" id="NaB-j8-2zv"/>
+                            <outlet property="delegate" destination="Dgv-he-RY7" id="nQU-uq-g5N"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="MC5-Hz-TV4">
+                        <nil key="title"/>
+                        <view key="titleView" contentMode="scaleToFill" id="ccz-kb-dyw">
+                            <rect key="frame" x="113" y="6" width="150" height="33"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EMINEM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Is-2s-P2C">
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                    <color key="textColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="9Is-2s-P2C" firstAttribute="top" secondItem="ccz-kb-dyw" secondAttribute="top" id="9fa-mB-Xno"/>
+                                <constraint firstItem="9Is-2s-P2C" firstAttribute="leading" secondItem="ccz-kb-dyw" secondAttribute="leading" id="J1q-Ur-eME"/>
+                                <constraint firstAttribute="trailing" secondItem="9Is-2s-P2C" secondAttribute="trailing" id="anI-Dw-lwJ"/>
+                                <constraint firstAttribute="bottom" secondItem="9Is-2s-P2C" secondAttribute="bottom" id="fhG-j4-sKz"/>
+                            </constraints>
+                        </view>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="SgM-Gq-t0Q" kind="show" identifier="ToLyrics" id="kfY-OS-iWO"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkR-kn-yWF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1127" y="1035"/>
+        </scene>
+        <!--Lyrics View Controller-->
+        <scene sceneID="SWH-At-oNM">
+            <objects>
+                <viewController id="SgM-Gq-t0Q" customClass="LyricsViewController" customModule="PassingDataLesson" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="B5h-a9-5K7"/>
+                        <viewControllerLayoutGuide type="bottom" id="owf-39-67T"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TTD-du-AS3">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0Fe-Ft-9LQ">
+                                <frame key="frameInset" minX="16" minY="20" width="343" height="2959"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">People! It feels so good to be back.
+Ladies and Gentlemen, introducing the new and improved, you know who
+
+Never been the type to bend or budge,
+The wrong button to push,
+No friend of Bush
+I'm the centerpiece, you're a Maltese.
+I'm a pit bull off his leash,
+All this peace talk can cease
+All these people I had to leave in limbo,
+I'm back now, I've come to release this info
+I'll be brief and let me just keep shit simple,
+Can-a-bitch don't want no beef with Slim? No!
+Not even on my radar, so won't you please jump off my dick,
+Lay off and stay off
+And follow me as I put these crayons to chaos from seance to seance,
+Aw-a-aw-sh-a-aw
+
+C'mon now, let's all get on down,
+Let's do-si-do now, we gon' have a good ol' time
+Don't be scared, cus there ain't nothin' to worry 'bout,
+Let your hair down, and square dance with me!
+
+C'mon now, let's all get on down,
+Let's do-si-do now, we gon' have a good ol' time
+Don't be scared, cus there ain't nothin' to worry 'bout,
+Let your hair down, and square dance with me!
+
+Let your hair down to the track, yeah kick on back.
+Boo! The boogie monster of rap, yeah the man's back
+With a plan to ambush this Bush administration,
+Mush the Senate's face in, push this generation
+Of kids to stand and fight for the right to say something you might not like,
+This white hot light
+That I'm under, no wonder I look so sunburnt,
+Oh no I won't leave no stone unturned
+Oh no I won't leave,
+Won't go nowhere, do-si-do, oh, yo, ho, hello there
+Oh yeah don't think I won't go there, go to Beirut and do a show there
+Yeah you laugh till your muthafuckin' ass gets drafted,
+While you're at band camp thinkin' the crap can't happen
+Till you fuck around, get an anthrax napkin,
+Inside a package wrapped in saran wrap wrapping
+Open the plastic and then you stand back gasping,
+Fuckin' assassins hijackin' Amtracks crashin'
+All this terror America demands action,
+Next thing you know you've got Uncle Sam's ass askin'
+To join the army or what you'll do for their Navy.
+You just a baby, gettin' recruited at eighteen
+You're on a plane now, eatin' their food and their baked beans.
+I'm twenty-eight, they're gonna take you 'fore they take me
+Crazy insane or insane crazy? When I say Hussein, you say Shady
+My views ain't changed, still inhumane, wait,
+Arraigned two days late, the date's today, hang me!
+
+C'mon now, let's all get on down,
+Let's do-si-do now, we gon' have a good ol' time
+Don't be scared, cus there ain't nothin' to worry 'bout,
+Let your hair down, and square dance with me!
+
+C'mon now, let's all get on down,
+Let's do-si-do now, we gon' have a good ol' time
+Don't be scared, cus there ain't nothin' to worry 'bout,
+Let your hair down, and square dance with me!
+
+Nothin' moves me more than a groove that soothes me,
+Nothin' soothes me more than a groove that boosts me
+Nothin' boosts me more, or suits me beautifully,
+There's nothin' you can do to me, stab me shoot me
+Psychotic, hypnotic product I got it the antibiotic,
+Ain't nobody hotter and so on
+And yada yada, god I talk a lotta hem de lay la la la,
+Oochie walla um da dah da dah da but you gotta gotta
+Keep movin', there's more music to make,
+Keep makin' new shit,
+Produce hits to break
+The monotony, what's gotten into me?
+Drugs, rock, and Hennessey, thug like I'm 'Pac on my enemies
+On your knees, got you under siege, somebody you would give a lung to be
+Hun-ga-ry, like a fuckin' younger me, fuck the fee,
+I can get you jumped for free
+Yeah buddy, laugh it's funny,
+I have the money to have you killed by somebody who has nothing
+I'm past bluffing, pass the K-Y,
+Let's get ready for some intense, serious ass fucking!
+
+C'mon now, let's all get on down,
+Let's do-si-do now, we gon' have a good ol' time
+Don't be scared, cus there ain't nothin' to worry 'bout,
+Let your hair down, and square dance with me!
+
+C'mon now, let's all get on down,
+Let's do-si-do now, we gon' have a good ol' time
+Don't be scared, cus there ain't nothin' to worry 'bout,
+Let your hair down, and square dance with me!
+
+Dr. Dre, wants to square dance with me
+Nasty Nas, wants to square dance with me
+X to the Z, wants to square dance with me
+Busta Rhymes, wants to square dance with me
+Cana-bitch, won't square dance with me
+Fan-a-bitch, won't square dance with me
+Canada-bis, don't want no parts of me
+Dirty Dozen, wants to square dance with you
+Yee-Haw!</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.054901960780000002" green="0.84705882349999995" blue="0.56078431370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="nOQ-X1-6u7">
+                        <nil key="title"/>
+                        <view key="titleView" contentMode="scaleToFill" id="4sC-XO-nZK">
+                            <rect key="frame" x="113" y="6" width="150" height="33"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SQUARE DANCE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="xwu-6T-tKP">
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                    <color key="textColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="xwu-6T-tKP" firstAttribute="top" secondItem="4sC-XO-nZK" secondAttribute="top" id="OKc-Ec-aZH"/>
+                                <constraint firstAttribute="bottom" secondItem="xwu-6T-tKP" secondAttribute="bottom" id="Tfe-jh-tga"/>
+                                <constraint firstAttribute="trailing" secondItem="xwu-6T-tKP" secondAttribute="trailing" id="WEi-jn-shO"/>
+                                <constraint firstItem="xwu-6T-tKP" firstAttribute="leading" secondItem="4sC-XO-nZK" secondAttribute="leading" id="e0o-JP-6se"/>
+                            </constraints>
+                        </view>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="lyricsTextView" destination="0Fe-Ft-9LQ" id="V0b-f9-gxG"/>
+                        <outlet property="songTitleLabel" destination="xwu-6T-tKP" id="FH4-74-ycA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iLu-H0-JIP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1948" y="1034.9325337331336"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="atS-yA-Vz2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3Up-Oj-cFe" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="V06-4Y-Rdb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.054901960784313725" green="0.84705882352941175" blue="0.5607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Dgv-he-RY7" kind="relationship" relationship="rootViewController" id="PXD-mW-mA5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lXd-0N-Ie8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="1035"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Eminem" width="2560" height="1536"/>
+    </resources>
+</document>

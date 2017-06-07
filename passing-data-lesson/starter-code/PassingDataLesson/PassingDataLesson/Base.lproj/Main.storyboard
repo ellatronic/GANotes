@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11173.2" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3Up-Oj-cFe">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11143.2"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Artist View Controller-->
+        <scene sceneID="YL0-iL-EFX">
+            <objects>
+                <tableViewController id="Dgv-he-RY7" customClass="ArtistViewController" customModule="TableViewLab" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Nzm-hr-iHk">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="nH0-WE-T9S">
+                            <frame key="frameInset" width="375" height="400"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Eminem" translatesAutoresizingMaskIntoConstraints="NO" id="mpa-Yg-Ova">
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="mpa-Yg-Ova" secondAttribute="height" multiplier="15:8" id="V1R-8G-hGD"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9m3-Bv-HTg">
+                                    <string key="text">To call Eminem hip-hop's Elvis is correct to a degree, but it's largely inaccurate. Certainly, Eminem was the first white rapper since the Beastie Boys to garner both sales and critical respect, but his impact exceeded this confining distinction. </string>
+                                    <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="18"/>
+                                    <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="9m3-Bv-HTg" firstAttribute="top" secondItem="mpa-Yg-Ova" secondAttribute="bottom" constant="16" id="Feb-JG-rbb"/>
+                                <constraint firstAttribute="trailingMargin" secondItem="9m3-Bv-HTg" secondAttribute="trailing" id="JU3-Ze-ZjP"/>
+                                <constraint firstItem="9m3-Bv-HTg" firstAttribute="leading" secondItem="nH0-WE-T9S" secondAttribute="leadingMargin" id="WKG-fd-xrO"/>
+                                <constraint firstAttribute="bottomMargin" secondItem="9m3-Bv-HTg" secondAttribute="bottom" constant="8" id="lSy-yE-9is"/>
+                                <constraint firstItem="mpa-Yg-Ova" firstAttribute="leading" secondItem="nH0-WE-T9S" secondAttribute="leading" id="nzt-Kx-mud"/>
+                                <constraint firstAttribute="trailing" secondItem="mpa-Yg-Ova" secondAttribute="trailing" id="yjT-Jj-0aM"/>
+                                <constraint firstItem="mpa-Yg-Ova" firstAttribute="top" secondItem="nH0-WE-T9S" secondAttribute="top" id="ylP-z1-5wq"/>
+                            </constraints>
+                        </view>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="eW6-g0-mkC" detailTextLabel="bNU-kX-A06" style="IBUITableViewCellStyleSubtitle" id="yM9-yW-faB">
+                                <frame key="frameInset" minY="428" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yM9-yW-faB" id="Rq3-Gm-dlu">
+                                    <frame key="frameInset" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eW6-g0-mkC">
+                                            <frame key="frameInset" minX="15" minY="6" width="31.5" height="19.5"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bNU-kX-A06">
+                                            <frame key="frameInset" minX="15" minY="25.5" width="30.5" height="13.5"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Dgv-he-RY7" id="NaB-j8-2zv"/>
+                            <outlet property="delegate" destination="Dgv-he-RY7" id="nQU-uq-g5N"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="MC5-Hz-TV4">
+                        <nil key="title"/>
+                        <view key="titleView" contentMode="scaleToFill" id="ccz-kb-dyw">
+                            <rect key="frame" x="112.5" y="5.5" width="150" height="33"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EMINEM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Is-2s-P2C">
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                    <color key="textColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="9Is-2s-P2C" firstAttribute="top" secondItem="ccz-kb-dyw" secondAttribute="top" id="9fa-mB-Xno"/>
+                                <constraint firstItem="9Is-2s-P2C" firstAttribute="leading" secondItem="ccz-kb-dyw" secondAttribute="leading" id="J1q-Ur-eME"/>
+                                <constraint firstAttribute="trailing" secondItem="9Is-2s-P2C" secondAttribute="trailing" id="anI-Dw-lwJ"/>
+                                <constraint firstAttribute="bottom" secondItem="9Is-2s-P2C" secondAttribute="bottom" id="fhG-j4-sKz"/>
+                            </constraints>
+                        </view>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkR-kn-yWF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1127" y="1035"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="atS-yA-Vz2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3Up-Oj-cFe" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="V06-4Y-Rdb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.054901960784313725" green="0.84705882352941175" blue="0.5607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Dgv-he-RY7" kind="relationship" relationship="rootViewController" id="PXD-mW-mA5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lXd-0N-Ie8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="1035"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Eminem" width="2560" height="1536"/>
+    </resources>
+</document>
