@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11198.2" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Autolayouts2Lesson" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Seven-Samurai" translatesAutoresizingMaskIntoConstraints="NO" id="8RM-9l-cEl"/>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8RM-9l-cEl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="BGE-xq-Rbx"/>
+                            <constraint firstItem="8RM-9l-cEl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="J3B-xl-oip"/>
+                            <constraint firstAttribute="trailing" secondItem="8RM-9l-cEl" secondAttribute="trailing" id="PB7-cQ-tri"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8RM-9l-cEl" secondAttribute="bottom" id="yAt-Wg-7Hh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="Vlg-0E-7ku" kind="show" id="0hd-bt-dfr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="17m-RZ-DTj">
+            <objects>
+                <viewController id="Vlg-0E-7ku" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Y7y-1L-5qq"/>
+                        <viewControllerLayoutGuide type="bottom" id="xM0-4Y-nNP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YtH-Ct-jz1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Seven-Samurai" translatesAutoresizingMaskIntoConstraints="NO" id="qop-eH-Z6I">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="qop-eH-Z6I" secondAttribute="height" multiplier="15:8" id="8iD-dm-uPP"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5oP-Ip-Yls">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Samurai" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="65t-4H-T0Z">
+                                        <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.14901960780000001" blue="0.14901960780000001" alpha="0.5998922413793103" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="65t-4H-T0Z" firstAttribute="centerY" secondItem="5oP-Ip-Yls" secondAttribute="centerY" id="7jH-Z7-WBf"/>
+                                    <constraint firstItem="65t-4H-T0Z" firstAttribute="centerX" secondItem="5oP-Ip-Yls" secondAttribute="centerX" id="fRj-9D-VQ8"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qop-eH-Z6I" firstAttribute="width" secondItem="YtH-Ct-jz1" secondAttribute="width" multiplier="0.75" id="E76-O0-bPU"/>
+                            <constraint firstItem="5oP-Ip-Yls" firstAttribute="centerX" secondItem="qop-eH-Z6I" secondAttribute="centerX" id="HvW-3o-2IQ"/>
+                            <constraint firstItem="qop-eH-Z6I" firstAttribute="top" secondItem="Y7y-1L-5qq" secondAttribute="bottom" constant="24" id="MXa-jP-VOX"/>
+                            <constraint firstItem="5oP-Ip-Yls" firstAttribute="centerY" secondItem="qop-eH-Z6I" secondAttribute="centerY" id="O7I-3L-zkg"/>
+                            <constraint firstItem="5oP-Ip-Yls" firstAttribute="height" secondItem="qop-eH-Z6I" secondAttribute="height" id="QS0-T2-lRD"/>
+                            <constraint firstItem="qop-eH-Z6I" firstAttribute="centerX" secondItem="YtH-Ct-jz1" secondAttribute="centerX" id="qMT-Rg-Kew"/>
+                            <constraint firstItem="5oP-Ip-Yls" firstAttribute="width" secondItem="qop-eH-Z6I" secondAttribute="width" id="ysy-NU-xcj"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MYU-Sh-u9T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="935" y="37"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Seven-Samurai" width="3848" height="2820"/>
+    </resources>
+</document>
