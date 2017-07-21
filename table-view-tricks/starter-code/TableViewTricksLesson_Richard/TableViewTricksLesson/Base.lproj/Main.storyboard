@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Wia-XF-vIu">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Giphy Roulette View Controller-->
+        <scene sceneID="QxB-Q5-pcr">
+            <objects>
+                <tableViewController id="Qlh-cH-pp4" customClass="GiphyRouletteViewController" customModule="TableViewTricksLesson" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="270" sectionHeaderHeight="28" sectionFooterHeight="28" id="UGC-px-epE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GiphyCell" rowHeight="270" id="jFs-PS-5fw" customClass="GiphyCell" customModule="TableViewTricksLesson" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="270"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jFs-PS-5fw" id="9hK-xz-ggV">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="269"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NLg-8K-vbg">
+                                            <rect key="frame" x="1" y="1" width="373" height="267.5"/>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="NLg-8K-vbg" firstAttribute="leading" secondItem="9hK-xz-ggV" secondAttribute="leading" constant="1" id="QxQ-3H-TXV"/>
+                                        <constraint firstAttribute="bottom" secondItem="NLg-8K-vbg" secondAttribute="bottom" constant="1" id="ac9-Vf-4mQ"/>
+                                        <constraint firstAttribute="trailing" secondItem="NLg-8K-vbg" secondAttribute="trailing" constant="1" id="cez-dd-kRA"/>
+                                        <constraint firstItem="NLg-8K-vbg" firstAttribute="top" secondItem="9hK-xz-ggV" secondAttribute="top" constant="1" id="r7v-72-naS"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="giphyImageView" destination="NLg-8K-vbg" id="jNb-oO-Rzn"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Qlh-cH-pp4" id="tYT-Bv-hRk"/>
+                            <outlet property="delegate" destination="Qlh-cH-pp4" id="AS7-2A-iXr"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="832-Ou-plg">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="zCY-O3-dqB">
+                            <connections>
+                                <action selector="onReload:" destination="Qlh-cH-pp4" id="j0H-iO-Wuo"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zgk-EE-HAs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.79999999999995" y="15.742128935532236"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="nyE-D0-X3S">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Wia-XF-vIu" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9jq-Cc-ayN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Qlh-cH-pp4" kind="relationship" relationship="rootViewController" id="nie-be-fsS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bRe-Ov-4fN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10.4" y="15.742128935532236"/>
+        </scene>
+    </scenes>
+</document>
