@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4976F2201EA9596E00E8D038 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4976F21F1EA9596E00E8D038 /* AppDelegate.swift */; };
+		4976F2221EA9596E00E8D038 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4976F2211EA9596E00E8D038 /* ViewController.swift */; };
+		4976F2251EA9596E00E8D038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4976F2231EA9596E00E8D038 /* Main.storyboard */; };
+		4976F2271EA9596E00E8D038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4976F2261EA9596E00E8D038 /* Assets.xcassets */; };
+		4976F22A1EA9596E00E8D038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4976F2281EA9596E00E8D038 /* LaunchScreen.storyboard */; };
+		4976F2321EA95EBE00E8D038 /* FaceTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4976F2311EA95EBE00E8D038 /* FaceTracker.swift */; };
+		4976F2341EA95F8200E8D038 /* EyePhysics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4976F2331EA95F8200E8D038 /* EyePhysics.swift */; };
+		BA1330B170C64A81FC29A635 /* Pods_GooglyEyes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6C240B06D9942AB8003435 /* Pods_GooglyEyes.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C6C240B06D9942AB8003435 /* Pods_GooglyEyes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GooglyEyes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4976F21C1EA9596E00E8D038 /* GooglyEyes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooglyEyes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4976F21F1EA9596E00E8D038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4976F2211EA9596E00E8D038 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4976F2241EA9596E00E8D038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4976F2261EA9596E00E8D038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4976F2291EA9596E00E8D038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4976F22B1EA9596E00E8D038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4976F2311EA95EBE00E8D038 /* FaceTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceTracker.swift; sourceTree = "<group>"; };
+		4976F2331EA95F8200E8D038 /* EyePhysics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyePhysics.swift; sourceTree = "<group>"; };
+		B07ADC859EA3B2D6F061FBDF /* Pods-GooglyEyes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GooglyEyes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GooglyEyes/Pods-GooglyEyes.debug.xcconfig"; sourceTree = "<group>"; };
+		CE4E06C7687970E20BF80D90 /* Pods-GooglyEyes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GooglyEyes.release.xcconfig"; path = "Pods/Target Support Files/Pods-GooglyEyes/Pods-GooglyEyes.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4976F2191EA9596E00E8D038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1330B170C64A81FC29A635 /* Pods_GooglyEyes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EE1D54E711A32B4F67D9AA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C6C240B06D9942AB8003435 /* Pods_GooglyEyes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4976F2131EA9596E00E8D038 = {
+			isa = PBXGroup;
+			children = (
+				4976F21E1EA9596E00E8D038 /* GooglyEyes */,
+				4976F21D1EA9596E00E8D038 /* Products */,
+				C13683D68C3FC620C1BD5FEF /* Pods */,
+				2EE1D54E711A32B4F67D9AA7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4976F21D1EA9596E00E8D038 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4976F21C1EA9596E00E8D038 /* GooglyEyes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4976F21E1EA9596E00E8D038 /* GooglyEyes */ = {
+			isa = PBXGroup;
+			children = (
+				4976F21F1EA9596E00E8D038 /* AppDelegate.swift */,
+				4976F2211EA9596E00E8D038 /* ViewController.swift */,
+				4976F2311EA95EBE00E8D038 /* FaceTracker.swift */,
+				4976F2331EA95F8200E8D038 /* EyePhysics.swift */,
+				4976F2231EA9596E00E8D038 /* Main.storyboard */,
+				4976F2261EA9596E00E8D038 /* Assets.xcassets */,
+				4976F2281EA9596E00E8D038 /* LaunchScreen.storyboard */,
+				4976F22B1EA9596E00E8D038 /* Info.plist */,
+			);
+			path = GooglyEyes;
+			sourceTree = "<group>";
+		};
+		C13683D68C3FC620C1BD5FEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B07ADC859EA3B2D6F061FBDF /* Pods-GooglyEyes.debug.xcconfig */,
+				CE4E06C7687970E20BF80D90 /* Pods-GooglyEyes.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4976F21B1EA9596E00E8D038 /* GooglyEyes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4976F22E1EA9596E00E8D038 /* Build configuration list for PBXNativeTarget "GooglyEyes" */;
+			buildPhases = (
+				A94C4FDA62F88E7E8A8C8C3B /* [CP] Check Pods Manifest.lock */,
+				4976F2181EA9596E00E8D038 /* Sources */,
+				4976F2191EA9596E00E8D038 /* Frameworks */,
+				4976F21A1EA9596E00E8D038 /* Resources */,
+				8F3CF7B968B52DCEA2F7AB2F /* [CP] Embed Pods Frameworks */,
+				6D85D68A167C2B96D3F5A582 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GooglyEyes;
+			productName = GooglyEyes;
+			productReference = 4976F21C1EA9596E00E8D038 /* GooglyEyes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4976F2141EA9596E00E8D038 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Ellatronic;
+				TargetAttributes = {
+					4976F21B1EA9596E00E8D038 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 55GD3S5ST7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4976F2171EA9596E00E8D038 /* Build configuration list for PBXProject "GooglyEyes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4976F2131EA9596E00E8D038;
+			productRefGroup = 4976F21D1EA9596E00E8D038 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4976F21B1EA9596E00E8D038 /* GooglyEyes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4976F21A1EA9596E00E8D038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4976F22A1EA9596E00E8D038 /* LaunchScreen.storyboard in Resources */,
+				4976F2271EA9596E00E8D038 /* Assets.xcassets in Resources */,
+				4976F2251EA9596E00E8D038 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D85D68A167C2B96D3F5A582 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GooglyEyes/Pods-GooglyEyes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F3CF7B968B52DCEA2F7AB2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GooglyEyes/Pods-GooglyEyes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A94C4FDA62F88E7E8A8C8C3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4976F2181EA9596E00E8D038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4976F2221EA9596E00E8D038 /* ViewController.swift in Sources */,
+				4976F2341EA95F8200E8D038 /* EyePhysics.swift in Sources */,
+				4976F2201EA9596E00E8D038 /* AppDelegate.swift in Sources */,
+				4976F2321EA95EBE00E8D038 /* FaceTracker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4976F2231EA9596E00E8D038 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4976F2241EA9596E00E8D038 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4976F2281EA9596E00E8D038 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4976F2291EA9596E00E8D038 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4976F22C1EA9596E00E8D038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4976F22D1EA9596E00E8D038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4976F22F1EA9596E00E8D038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B07ADC859EA3B2D6F061FBDF /* Pods-GooglyEyes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 55GD3S5ST7;
+				INFOPLIST_FILE = GooglyEyes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ellatronic.GooglyEyes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4976F2301EA9596E00E8D038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE4E06C7687970E20BF80D90 /* Pods-GooglyEyes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 55GD3S5ST7;
+				INFOPLIST_FILE = GooglyEyes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ellatronic.GooglyEyes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4976F2171EA9596E00E8D038 /* Build configuration list for PBXProject "GooglyEyes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4976F22C1EA9596E00E8D038 /* Debug */,
+				4976F22D1EA9596E00E8D038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4976F22E1EA9596E00E8D038 /* Build configuration list for PBXNativeTarget "GooglyEyes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4976F22F1EA9596E00E8D038 /* Debug */,
+				4976F2301EA9596E00E8D038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4976F2141EA9596E00E8D038 /* Project object */;
+}

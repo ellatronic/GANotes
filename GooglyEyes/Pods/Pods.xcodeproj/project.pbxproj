@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22294205D9F50B4E395B28ED73D3E82F /* Pods-GooglyEyes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A47C2142DE1477B0D45BED3444286D5 /* Pods-GooglyEyes-dummy.m */; };
+		EC850750163BA23F91A2E60004F533DA /* Pods-GooglyEyes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C7376E9628A2A62A21A35FA212C950 /* Pods-GooglyEyes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFAEC6848CEF1B93A92959119BBB44B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A47C2142DE1477B0D45BED3444286D5 /* Pods-GooglyEyes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GooglyEyes-dummy.m"; sourceTree = "<group>"; };
+		0BCBA1BB57048783DA31C508A1C8F884 /* LMprec_600.emd */ = {isa = PBXFileReference; includeInIndex = 1; name = LMprec_600.emd; path = FaceDetector/Resources/LMprec_600.emd; sourceTree = "<group>"; };
+		1D74CC09E4E8E71FB2DC5E61DFD028AE /* GoogleMobileVision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileVision.framework; path = Detector/Frameworks/frameworks/GoogleMobileVision.framework; sourceTree = "<group>"; };
+		2CC8D354075E42D5B60259FFE0F61556 /* BCLlefteyeclosed_200.emd */ = {isa = PBXFileReference; includeInIndex = 1; name = BCLlefteyeclosed_200.emd; path = FaceDetector/Resources/BCLlefteyeclosed_200.emd; sourceTree = "<group>"; };
+		31E6FFEB14333FF066FE4E8017BE1A14 /* Pods-GooglyEyes-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GooglyEyes-resources.sh"; sourceTree = "<group>"; };
+		32C4D55F54BE7476C10A5E09C4DEDDD7 /* Pods-GooglyEyes-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GooglyEyes-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3CEB196F83675BABC37E6918B2CC9DD0 /* PFFprec_702.emd */ = {isa = PBXFileReference; includeInIndex = 1; name = PFFprec_702.emd; path = FaceDetector/Resources/PFFprec_702.emd; sourceTree = "<group>"; };
+		496F50DA09088077E12779F08AC4F9B6 /* Pods-GooglyEyes-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GooglyEyes-acknowledgements.plist"; sourceTree = "<group>"; };
+		4A30C44E1A3B07D83575CAE0F41E02A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AB3BB8EB8AAE1071393522C665C374F /* MFTprec_202.emd */ = {isa = PBXFileReference; includeInIndex = 1; name = MFTprec_202.emd; path = FaceDetector/Resources/MFTprec_202.emd; sourceTree = "<group>"; };
+		54C7376E9628A2A62A21A35FA212C950 /* Pods-GooglyEyes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GooglyEyes-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66973091BD031E119A37E5C9F832D411 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		6B1AF70C6600BB6ACED99EE6B2370FE2 /* Pods-GooglyEyes-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GooglyEyes-frameworks.sh"; sourceTree = "<group>"; };
+		6EDB12B486C1D429402B9F8BD6DA7697 /* Pods_GooglyEyes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GooglyEyes.framework; path = "Pods-GooglyEyes.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF79601D70E4D18072148B75E3877B2 /* BCLjoy_100.emd */ = {isa = PBXFileReference; includeInIndex = 1; name = BCLjoy_100.emd; path = FaceDetector/Resources/BCLjoy_100.emd; sourceTree = "<group>"; };
+		7E0B01439F18CAC991D3E1D12174998E /* Pods-GooglyEyes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GooglyEyes.release.xcconfig"; sourceTree = "<group>"; };
+		8FD1F39F6A65FDCDD5FCC7100A65DFB9 /* FaceDetector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FaceDetector.framework; path = FaceDetector/Frameworks/frameworks/FaceDetector.framework; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97B21BCB5CA3D05B80CA6344C3BD7EF3 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		9D8F23ECE0D4765033DD3ED7BEC60824 /* GoogleMVDataOutput.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMVDataOutput.framework; path = MVDataOutput/Frameworks/frameworks/GoogleMVDataOutput.framework; sourceTree = "<group>"; };
+		B6B6C1FE73A771F74BF12A12983DAD55 /* BCLrighteyeclosed_200.emd */ = {isa = PBXFileReference; includeInIndex = 1; name = BCLrighteyeclosed_200.emd; path = FaceDetector/Resources/BCLrighteyeclosed_200.emd; sourceTree = "<group>"; };
+		BD95A5B2844C3E2D2D6C324272A1480A /* Pods-GooglyEyes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GooglyEyes.modulemap"; sourceTree = "<group>"; };
+		C276287EA42BDDAA8A85DB184D60FB65 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		F53C1CB29CC57AD792B1835083C180A4 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		FDA1D4EA96C26FF33B5DAC9103715ED2 /* Pods-GooglyEyes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GooglyEyes.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9365B33607FA04959CDDDFE547DC3823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAEC6848CEF1B93A92959119BBB44B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01DCF3B19CA33ECF8ACA11B7D4E528E6 /* MVDataOutput */ = {
+			isa = PBXGroup;
+			children = (
+				9DDA67D9A167EC7A8B6DE1400C4A8FAB /* Frameworks */,
+			);
+			name = MVDataOutput;
+			sourceTree = "<group>";
+		};
+		17ABC384E42784A196455BA4827FF749 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				363BB42D101E4CF1AE4D2111247072ED /* Frameworks */,
+			);
+			name = GoogleUtilities;
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		246CF594CAD24AFB4CCBF3BCEF395C8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5B02977E92056CA2451399C0C61C241 /* GoogleInterchangeUtilities */,
+				86361029D4D9B7A8E4269BB3D3BAD213 /* GoogleMobileVision */,
+				EB883072E76A089EB1AC013693B749ED /* GoogleNetworkingUtilities */,
+				7A339E28C104635BF2C063028709C696 /* GoogleSymbolUtilities */,
+				17ABC384E42784A196455BA4827FF749 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		363BB42D101E4CF1AE4D2111247072ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F53C1CB29CC57AD792B1835083C180A4 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DB40EF641265C438AEE623FDE75B44B /* Detector */ = {
+			isa = PBXGroup;
+			children = (
+				6200177777D26A964E618D8200D2CAB7 /* Frameworks */,
+			);
+			name = Detector;
+			sourceTree = "<group>";
+		};
+		3F6EF9C338A826523AA27AAE60B56284 /* FaceDetector */ = {
+			isa = PBXGroup;
+			children = (
+				48B2CC451139789C065494C23EE811C9 /* Frameworks */,
+				DA9379C43BDA35CF32137BF975A5A47D /* Resources */,
+			);
+			name = FaceDetector;
+			sourceTree = "<group>";
+		};
+		48B2CC451139789C065494C23EE811C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FD1F39F6A65FDCDD5FCC7100A65DFB9 /* FaceDetector.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58533625E2A6F608689390DC30D92F21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66973091BD031E119A37E5C9F832D411 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6200177777D26A964E618D8200D2CAB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D74CC09E4E8E71FB2DC5E61DFD028AE /* GoogleMobileVision.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A339E28C104635BF2C063028709C696 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				F03E100C4C1431B86E6CD6D74A9C672B /* Frameworks */,
+			);
+			name = GoogleSymbolUtilities;
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				246CF594CAD24AFB4CCBF3BCEF395C8C /* Pods */,
+				DBDCCC5824862A5A3D26E555E4B35AB7 /* Products */,
+				E73365EA81A0CC72A28707972249FE54 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86361029D4D9B7A8E4269BB3D3BAD213 /* GoogleMobileVision */ = {
+			isa = PBXGroup;
+			children = (
+				3DB40EF641265C438AEE623FDE75B44B /* Detector */,
+				3F6EF9C338A826523AA27AAE60B56284 /* FaceDetector */,
+				01DCF3B19CA33ECF8ACA11B7D4E528E6 /* MVDataOutput */,
+			);
+			name = GoogleMobileVision;
+			path = GoogleMobileVision;
+			sourceTree = "<group>";
+		};
+		9DDA67D9A167EC7A8B6DE1400C4A8FAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D8F23ECE0D4765033DD3ED7BEC60824 /* GoogleMVDataOutput.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5B02977E92056CA2451399C0C61C241 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				58533625E2A6F608689390DC30D92F21 /* Frameworks */,
+			);
+			name = GoogleInterchangeUtilities;
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DA9379C43BDA35CF32137BF975A5A47D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7BF79601D70E4D18072148B75E3877B2 /* BCLjoy_100.emd */,
+				2CC8D354075E42D5B60259FFE0F61556 /* BCLlefteyeclosed_200.emd */,
+				B6B6C1FE73A771F74BF12A12983DAD55 /* BCLrighteyeclosed_200.emd */,
+				0BCBA1BB57048783DA31C508A1C8F884 /* LMprec_600.emd */,
+				4AB3BB8EB8AAE1071393522C665C374F /* MFTprec_202.emd */,
+				3CEB196F83675BABC37E6918B2CC9DD0 /* PFFprec_702.emd */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DBDCCC5824862A5A3D26E555E4B35AB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EDB12B486C1D429402B9F8BD6DA7697 /* Pods_GooglyEyes.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E73365EA81A0CC72A28707972249FE54 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED257B5AD4BF740C2FE77FA0B3D44EEE /* Pods-GooglyEyes */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EB883072E76A089EB1AC013693B749ED /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				FEB92B314AAD49F2233BE860A54768EC /* Frameworks */,
+			);
+			name = GoogleNetworkingUtilities;
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		ED257B5AD4BF740C2FE77FA0B3D44EEE /* Pods-GooglyEyes */ = {
+			isa = PBXGroup;
+			children = (
+				4A30C44E1A3B07D83575CAE0F41E02A7 /* Info.plist */,
+				BD95A5B2844C3E2D2D6C324272A1480A /* Pods-GooglyEyes.modulemap */,
+				32C4D55F54BE7476C10A5E09C4DEDDD7 /* Pods-GooglyEyes-acknowledgements.markdown */,
+				496F50DA09088077E12779F08AC4F9B6 /* Pods-GooglyEyes-acknowledgements.plist */,
+				0A47C2142DE1477B0D45BED3444286D5 /* Pods-GooglyEyes-dummy.m */,
+				6B1AF70C6600BB6ACED99EE6B2370FE2 /* Pods-GooglyEyes-frameworks.sh */,
+				31E6FFEB14333FF066FE4E8017BE1A14 /* Pods-GooglyEyes-resources.sh */,
+				54C7376E9628A2A62A21A35FA212C950 /* Pods-GooglyEyes-umbrella.h */,
+				FDA1D4EA96C26FF33B5DAC9103715ED2 /* Pods-GooglyEyes.debug.xcconfig */,
+				7E0B01439F18CAC991D3E1D12174998E /* Pods-GooglyEyes.release.xcconfig */,
+			);
+			name = "Pods-GooglyEyes";
+			path = "Target Support Files/Pods-GooglyEyes";
+			sourceTree = "<group>";
+		};
+		F03E100C4C1431B86E6CD6D74A9C672B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97B21BCB5CA3D05B80CA6344C3BD7EF3 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEB92B314AAD49F2233BE860A54768EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C276287EA42BDDAA8A85DB184D60FB65 /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A0E2471AE703777B169197B55D4B58CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC850750163BA23F91A2E60004F533DA /* Pods-GooglyEyes-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B799701F74B6FFE3F9304DCDE15F103E /* Pods-GooglyEyes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4015CCDFF3380269EA591F88080CB861 /* Build configuration list for PBXNativeTarget "Pods-GooglyEyes" */;
+			buildPhases = (
+				45ED31DDE05B8203D2D8D1486C424EB6 /* Sources */,
+				9365B33607FA04959CDDDFE547DC3823 /* Frameworks */,
+				A0E2471AE703777B169197B55D4B58CA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GooglyEyes";
+			productName = "Pods-GooglyEyes";
+			productReference = 6EDB12B486C1D429402B9F8BD6DA7697 /* Pods_GooglyEyes.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DBDCCC5824862A5A3D26E555E4B35AB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B799701F74B6FFE3F9304DCDE15F103E /* Pods-GooglyEyes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45ED31DDE05B8203D2D8D1486C424EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22294205D9F50B4E395B28ED73D3E82F /* Pods-GooglyEyes-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1EC9DB36853835E16141570596DC89C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDA1D4EA96C26FF33B5DAC9103715ED2 /* Pods-GooglyEyes.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GooglyEyes/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GooglyEyes/Pods-GooglyEyes.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GooglyEyes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39D31AF9D053248B79242DCD7C390AA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E0B01439F18CAC991D3E1D12174998E /* Pods-GooglyEyes.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GooglyEyes/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GooglyEyes/Pods-GooglyEyes.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GooglyEyes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4015CCDFF3380269EA591F88080CB861 /* Build configuration list for PBXNativeTarget "Pods-GooglyEyes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EC9DB36853835E16141570596DC89C1 /* Debug */,
+				39D31AF9D053248B79242DCD7C390AA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

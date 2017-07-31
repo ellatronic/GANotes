@@ -1,0 +1,10 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/GoogleInterchangeUtilities/Frameworks/frameworks" "${PODS_ROOT}/GoogleMobileVision/Detector/Frameworks/frameworks" "${PODS_ROOT}/GoogleMobileVision/FaceDetector/Frameworks/frameworks" "${PODS_ROOT}/GoogleMobileVision/MVDataOutput/Frameworks/frameworks" "${PODS_ROOT}/GoogleNetworkingUtilities/Frameworks/frameworks" "${PODS_ROOT}/GoogleSymbolUtilities/Frameworks/frameworks" "${PODS_ROOT}/GoogleUtilities/Frameworks/frameworks"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/GoogleInterchangeUtilities" "${PODS_ROOT}/Headers/Public/GoogleMobileVision" "${PODS_ROOT}/Headers/Public/GoogleNetworkingUtilities" "${PODS_ROOT}/Headers/Public/GoogleSymbolUtilities" "${PODS_ROOT}/Headers/Public/GoogleUtilities"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited)  -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/GoogleInterchangeUtilities" -isystem "${PODS_ROOT}/Headers/Public/GoogleMobileVision" -isystem "${PODS_ROOT}/Headers/Public/GoogleNetworkingUtilities" -isystem "${PODS_ROOT}/Headers/Public/GoogleSymbolUtilities" -isystem "${PODS_ROOT}/Headers/Public/GoogleUtilities"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"z" -framework "AVFoundation" -framework "Accelerate" -framework "AddressBook" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreVideo" -framework "FaceDetector" -framework "Foundation" -framework "GoogleInterchangeUtilities" -framework "GoogleMVDataOutput" -framework "GoogleMobileVision" -framework "GoogleNetworkingUtilities" -framework "GoogleSymbolUtilities" -framework "GoogleUtilities" -framework "Security" -framework "UIKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
