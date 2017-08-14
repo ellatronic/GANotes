@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE4DA0DE1D8DD482003183F4 /* LibThrift.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA0DC1D8DD482003183F4 /* LibThrift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA1181D8DD4E1003183F4 /* TBase.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA0E51D8DD4E1003183F4 /* TBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA1191D8DD4E1003183F4 /* TBinaryProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA0E61D8DD4E1003183F4 /* TBinaryProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA11A1D8DD4E1003183F4 /* TBinaryProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4DA0E71D8DD4E1003183F4 /* TBinaryProtocol.m */; };
+		DE4DA11B1D8DD4E1003183F4 /* TCompactProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA0E81D8DD4E1003183F4 /* TCompactProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA11C1D8DD4E1003183F4 /* TCompactProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4DA0E91D8DD4E1003183F4 /* TCompactProtocol.m */; };
+		DE4DA11D1D8DD4E1003183F4 /* TMultiplexedProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA0EA1D8DD4E1003183F4 /* TMultiplexedProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA11E1D8DD4E1003183F4 /* TMultiplexedProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4DA0EB1D8DD4E1003183F4 /* TMultiplexedProtocol.m */; };
+		DE4DA11F1D8DD4E1003183F4 /* TProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA0EC1D8DD4E1003183F4 /* TProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA1201D8DD4E1003183F4 /* TProtocolDecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA0ED1D8DD4E1003183F4 /* TProtocolDecorator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA1211D8DD4E1003183F4 /* TProtocolDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4DA0EE1D8DD4E1003183F4 /* TProtocolDecorator.m */; };
+		DE4DA1221D8DD4E1003183F4 /* TProtocolException.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA0EF1D8DD4E1003183F4 /* TProtocolException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA1231D8DD4E1003183F4 /* TProtocolException.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4DA0F01D8DD4E1003183F4 /* TProtocolException.m */; };
+		DE4DA1241D8DD4E1003183F4 /* TProtocolFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA0F11D8DD4E1003183F4 /* TProtocolFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA1251D8DD4E1003183F4 /* TProtocolUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA0F21D8DD4E1003183F4 /* TProtocolUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA1261D8DD4E1003183F4 /* TProtocolUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4DA0F31D8DD4E1003183F4 /* TProtocolUtil.m */; };
+		DE4DA1271D8DD4E1003183F4 /* TSocketServer.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA0F51D8DD4E1003183F4 /* TSocketServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA1281D8DD4E1003183F4 /* TSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4DA0F61D8DD4E1003183F4 /* TSocketServer.m */; };
+		DE4DA1291D8DD4E1003183F4 /* TApplicationException.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA0F71D8DD4E1003183F4 /* TApplicationException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA12A1D8DD4E1003183F4 /* TApplicationException.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4DA0F81D8DD4E1003183F4 /* TApplicationException.m */; };
+		DE4DA12B1D8DD4E1003183F4 /* TBaseClient.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA0F91D8DD4E1003183F4 /* TBaseClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA12C1D8DD4E1003183F4 /* TBaseClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4DA0FA1D8DD4E1003183F4 /* TBaseClient.m */; };
+		DE4DA12D1D8DD4E1003183F4 /* TException.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA0FB1D8DD4E1003183F4 /* TException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA12E1D8DD4E1003183F4 /* TException.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4DA0FC1D8DD4E1003183F4 /* TException.m */; };
+		DE4DA12F1D8DD4E1003183F4 /* Thrift.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA0FD1D8DD4E1003183F4 /* Thrift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA1301D8DD4E1003183F4 /* TObjective-C.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA0FE1D8DD4E1003183F4 /* TObjective-C.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA1311D8DD4E1003183F4 /* TProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA0FF1D8DD4E1003183F4 /* TProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA1321D8DD4E1003183F4 /* TProcessorFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA1001D8DD4E1003183F4 /* TProcessorFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA1331D8DD4E1003183F4 /* TAsyncTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA1021D8DD4E1003183F4 /* TAsyncTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA1341D8DD4E1003183F4 /* TFramedTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA1031D8DD4E1003183F4 /* TFramedTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA1351D8DD4E1003183F4 /* TFramedTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4DA1041D8DD4E1003183F4 /* TFramedTransport.m */; };
+		DE4DA1361D8DD4E1003183F4 /* THTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA1051D8DD4E1003183F4 /* THTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA1371D8DD4E1003183F4 /* THTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4DA1061D8DD4E1003183F4 /* THTTPClient.m */; };
+		DE4DA1381D8DD4E1003183F4 /* TMemoryBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA1071D8DD4E1003183F4 /* TMemoryBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA1391D8DD4E1003183F4 /* TMemoryBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4DA1081D8DD4E1003183F4 /* TMemoryBuffer.m */; };
+		DE4DA13A1D8DD4E1003183F4 /* TNSFileHandleTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA1091D8DD4E1003183F4 /* TNSFileHandleTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA13B1D8DD4E1003183F4 /* TNSFileHandleTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4DA10A1D8DD4E1003183F4 /* TNSFileHandleTransport.m */; };
+		DE4DA13C1D8DD4E1003183F4 /* TNSStreamTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA10B1D8DD4E1003183F4 /* TNSStreamTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA13D1D8DD4E1003183F4 /* TNSStreamTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4DA10C1D8DD4E1003183F4 /* TNSStreamTransport.m */; };
+		DE4DA13E1D8DD4E1003183F4 /* TSocketClient.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA10D1D8DD4E1003183F4 /* TSocketClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA13F1D8DD4E1003183F4 /* TSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4DA10E1D8DD4E1003183F4 /* TSocketClient.m */; };
+		DE4DA1401D8DD4E1003183F4 /* TSSLSocketClient.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA10F1D8DD4E1003183F4 /* TSSLSocketClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA1411D8DD4E1003183F4 /* TSSLSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4DA1101D8DD4E1003183F4 /* TSSLSocketClient.m */; };
+		DE4DA1421D8DD4E1003183F4 /* TSSLSocketException.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA1111D8DD4E1003183F4 /* TSSLSocketException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA1431D8DD4E1003183F4 /* TSSLSocketException.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4DA1121D8DD4E1003183F4 /* TSSLSocketException.m */; };
+		DE4DA1441D8DD4E1003183F4 /* TTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA1131D8DD4E1003183F4 /* TTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA1451D8DD4E1003183F4 /* TTransportException.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA1141D8DD4E1003183F4 /* TTransportException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA1461D8DD4E1003183F4 /* TTransportException.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4DA1151D8DD4E1003183F4 /* TTransportException.m */; };
+		DE4DA1471D8DD4E1003183F4 /* TSharedProcessorFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA1161D8DD4E1003183F4 /* TSharedProcessorFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4DA1481D8DD4E1003183F4 /* TSharedProcessorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4DA1171D8DD4E1003183F4 /* TSharedProcessorFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE4DA0D91D8DD482003183F4 /* LibThrift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibThrift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4DA0DC1D8DD482003183F4 /* LibThrift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibThrift.h; sourceTree = "<group>"; };
+		DE4DA0DD1D8DD482003183F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE4DA0E51D8DD4E1003183F4 /* TBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBase.h; sourceTree = "<group>"; };
+		DE4DA0E61D8DD4E1003183F4 /* TBinaryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBinaryProtocol.h; sourceTree = "<group>"; };
+		DE4DA0E71D8DD4E1003183F4 /* TBinaryProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBinaryProtocol.m; sourceTree = "<group>"; };
+		DE4DA0E81D8DD4E1003183F4 /* TCompactProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCompactProtocol.h; sourceTree = "<group>"; };
+		DE4DA0E91D8DD4E1003183F4 /* TCompactProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCompactProtocol.m; sourceTree = "<group>"; };
+		DE4DA0EA1D8DD4E1003183F4 /* TMultiplexedProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMultiplexedProtocol.h; sourceTree = "<group>"; };
+		DE4DA0EB1D8DD4E1003183F4 /* TMultiplexedProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMultiplexedProtocol.m; sourceTree = "<group>"; };
+		DE4DA0EC1D8DD4E1003183F4 /* TProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocol.h; sourceTree = "<group>"; };
+		DE4DA0ED1D8DD4E1003183F4 /* TProtocolDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolDecorator.h; sourceTree = "<group>"; };
+		DE4DA0EE1D8DD4E1003183F4 /* TProtocolDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TProtocolDecorator.m; sourceTree = "<group>"; };
+		DE4DA0EF1D8DD4E1003183F4 /* TProtocolException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolException.h; sourceTree = "<group>"; };
+		DE4DA0F01D8DD4E1003183F4 /* TProtocolException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TProtocolException.m; sourceTree = "<group>"; };
+		DE4DA0F11D8DD4E1003183F4 /* TProtocolFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolFactory.h; sourceTree = "<group>"; };
+		DE4DA0F21D8DD4E1003183F4 /* TProtocolUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolUtil.h; sourceTree = "<group>"; };
+		DE4DA0F31D8DD4E1003183F4 /* TProtocolUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TProtocolUtil.m; sourceTree = "<group>"; };
+		DE4DA0F51D8DD4E1003183F4 /* TSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSocketServer.h; sourceTree = "<group>"; };
+		DE4DA0F61D8DD4E1003183F4 /* TSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSocketServer.m; sourceTree = "<group>"; };
+		DE4DA0F71D8DD4E1003183F4 /* TApplicationException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TApplicationException.h; sourceTree = "<group>"; };
+		DE4DA0F81D8DD4E1003183F4 /* TApplicationException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TApplicationException.m; sourceTree = "<group>"; };
+		DE4DA0F91D8DD4E1003183F4 /* TBaseClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBaseClient.h; sourceTree = "<group>"; };
+		DE4DA0FA1D8DD4E1003183F4 /* TBaseClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBaseClient.m; sourceTree = "<group>"; };
+		DE4DA0FB1D8DD4E1003183F4 /* TException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TException.h; sourceTree = "<group>"; };
+		DE4DA0FC1D8DD4E1003183F4 /* TException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TException.m; sourceTree = "<group>"; };
+		DE4DA0FD1D8DD4E1003183F4 /* Thrift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thrift.h; sourceTree = "<group>"; };
+		DE4DA0FE1D8DD4E1003183F4 /* TObjective-C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TObjective-C.h"; sourceTree = "<group>"; };
+		DE4DA0FF1D8DD4E1003183F4 /* TProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProcessor.h; sourceTree = "<group>"; };
+		DE4DA1001D8DD4E1003183F4 /* TProcessorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProcessorFactory.h; sourceTree = "<group>"; };
+		DE4DA1021D8DD4E1003183F4 /* TAsyncTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAsyncTransport.h; sourceTree = "<group>"; };
+		DE4DA1031D8DD4E1003183F4 /* TFramedTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFramedTransport.h; sourceTree = "<group>"; };
+		DE4DA1041D8DD4E1003183F4 /* TFramedTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFramedTransport.m; sourceTree = "<group>"; };
+		DE4DA1051D8DD4E1003183F4 /* THTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTTPClient.h; sourceTree = "<group>"; };
+		DE4DA1061D8DD4E1003183F4 /* THTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTTPClient.m; sourceTree = "<group>"; };
+		DE4DA1071D8DD4E1003183F4 /* TMemoryBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMemoryBuffer.h; sourceTree = "<group>"; };
+		DE4DA1081D8DD4E1003183F4 /* TMemoryBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMemoryBuffer.m; sourceTree = "<group>"; };
+		DE4DA1091D8DD4E1003183F4 /* TNSFileHandleTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNSFileHandleTransport.h; sourceTree = "<group>"; };
+		DE4DA10A1D8DD4E1003183F4 /* TNSFileHandleTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNSFileHandleTransport.m; sourceTree = "<group>"; };
+		DE4DA10B1D8DD4E1003183F4 /* TNSStreamTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNSStreamTransport.h; sourceTree = "<group>"; };
+		DE4DA10C1D8DD4E1003183F4 /* TNSStreamTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNSStreamTransport.m; sourceTree = "<group>"; };
+		DE4DA10D1D8DD4E1003183F4 /* TSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSocketClient.h; sourceTree = "<group>"; };
+		DE4DA10E1D8DD4E1003183F4 /* TSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSocketClient.m; sourceTree = "<group>"; };
+		DE4DA10F1D8DD4E1003183F4 /* TSSLSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSSLSocketClient.h; sourceTree = "<group>"; };
+		DE4DA1101D8DD4E1003183F4 /* TSSLSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSSLSocketClient.m; sourceTree = "<group>"; };
+		DE4DA1111D8DD4E1003183F4 /* TSSLSocketException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSSLSocketException.h; sourceTree = "<group>"; };
+		DE4DA1121D8DD4E1003183F4 /* TSSLSocketException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSSLSocketException.m; sourceTree = "<group>"; };
+		DE4DA1131D8DD4E1003183F4 /* TTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTransport.h; sourceTree = "<group>"; };
+		DE4DA1141D8DD4E1003183F4 /* TTransportException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTransportException.h; sourceTree = "<group>"; };
+		DE4DA1151D8DD4E1003183F4 /* TTransportException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTransportException.m; sourceTree = "<group>"; };
+		DE4DA1161D8DD4E1003183F4 /* TSharedProcessorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSharedProcessorFactory.h; sourceTree = "<group>"; };
+		DE4DA1171D8DD4E1003183F4 /* TSharedProcessorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSharedProcessorFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE4DA0D51D8DD482003183F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE4DA0CF1D8DD482003183F4 = {
+			isa = PBXGroup;
+			children = (
+				DE4DA0DB1D8DD482003183F4 /* LibThrift */,
+				DE4DA0DA1D8DD482003183F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE4DA0DA1D8DD482003183F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE4DA0D91D8DD482003183F4 /* LibThrift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE4DA0DB1D8DD482003183F4 /* LibThrift */ = {
+			isa = PBXGroup;
+			children = (
+				DE4DA0DC1D8DD482003183F4 /* LibThrift.h */,
+				DE4DA0E41D8DD4E1003183F4 /* protocol */,
+				DE4DA0F41D8DD4E1003183F4 /* server */,
+				DE4DA1011D8DD4E1003183F4 /* transport */,
+				DE4DA0F71D8DD4E1003183F4 /* TApplicationException.h */,
+				DE4DA0F81D8DD4E1003183F4 /* TApplicationException.m */,
+				DE4DA0F91D8DD4E1003183F4 /* TBaseClient.h */,
+				DE4DA0FA1D8DD4E1003183F4 /* TBaseClient.m */,
+				DE4DA0FB1D8DD4E1003183F4 /* TException.h */,
+				DE4DA0FC1D8DD4E1003183F4 /* TException.m */,
+				DE4DA0FD1D8DD4E1003183F4 /* Thrift.h */,
+				DE4DA0FE1D8DD4E1003183F4 /* TObjective-C.h */,
+				DE4DA0FF1D8DD4E1003183F4 /* TProcessor.h */,
+				DE4DA1001D8DD4E1003183F4 /* TProcessorFactory.h */,
+				DE4DA1161D8DD4E1003183F4 /* TSharedProcessorFactory.h */,
+				DE4DA1171D8DD4E1003183F4 /* TSharedProcessorFactory.m */,
+				DE4DA0DD1D8DD482003183F4 /* Info.plist */,
+			);
+			path = LibThrift;
+			sourceTree = "<group>";
+		};
+		DE4DA0E41D8DD4E1003183F4 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				DE4DA0E51D8DD4E1003183F4 /* TBase.h */,
+				DE4DA0E61D8DD4E1003183F4 /* TBinaryProtocol.h */,
+				DE4DA0E71D8DD4E1003183F4 /* TBinaryProtocol.m */,
+				DE4DA0E81D8DD4E1003183F4 /* TCompactProtocol.h */,
+				DE4DA0E91D8DD4E1003183F4 /* TCompactProtocol.m */,
+				DE4DA0EA1D8DD4E1003183F4 /* TMultiplexedProtocol.h */,
+				DE4DA0EB1D8DD4E1003183F4 /* TMultiplexedProtocol.m */,
+				DE4DA0EC1D8DD4E1003183F4 /* TProtocol.h */,
+				DE4DA0ED1D8DD4E1003183F4 /* TProtocolDecorator.h */,
+				DE4DA0EE1D8DD4E1003183F4 /* TProtocolDecorator.m */,
+				DE4DA0EF1D8DD4E1003183F4 /* TProtocolException.h */,
+				DE4DA0F01D8DD4E1003183F4 /* TProtocolException.m */,
+				DE4DA0F11D8DD4E1003183F4 /* TProtocolFactory.h */,
+				DE4DA0F21D8DD4E1003183F4 /* TProtocolUtil.h */,
+				DE4DA0F31D8DD4E1003183F4 /* TProtocolUtil.m */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		DE4DA0F41D8DD4E1003183F4 /* server */ = {
+			isa = PBXGroup;
+			children = (
+				DE4DA0F51D8DD4E1003183F4 /* TSocketServer.h */,
+				DE4DA0F61D8DD4E1003183F4 /* TSocketServer.m */,
+			);
+			path = server;
+			sourceTree = "<group>";
+		};
+		DE4DA1011D8DD4E1003183F4 /* transport */ = {
+			isa = PBXGroup;
+			children = (
+				DE4DA1021D8DD4E1003183F4 /* TAsyncTransport.h */,
+				DE4DA1031D8DD4E1003183F4 /* TFramedTransport.h */,
+				DE4DA1041D8DD4E1003183F4 /* TFramedTransport.m */,
+				DE4DA1051D8DD4E1003183F4 /* THTTPClient.h */,
+				DE4DA1061D8DD4E1003183F4 /* THTTPClient.m */,
+				DE4DA1071D8DD4E1003183F4 /* TMemoryBuffer.h */,
+				DE4DA1081D8DD4E1003183F4 /* TMemoryBuffer.m */,
+				DE4DA1091D8DD4E1003183F4 /* TNSFileHandleTransport.h */,
+				DE4DA10A1D8DD4E1003183F4 /* TNSFileHandleTransport.m */,
+				DE4DA10B1D8DD4E1003183F4 /* TNSStreamTransport.h */,
+				DE4DA10C1D8DD4E1003183F4 /* TNSStreamTransport.m */,
+				DE4DA10D1D8DD4E1003183F4 /* TSocketClient.h */,
+				DE4DA10E1D8DD4E1003183F4 /* TSocketClient.m */,
+				DE4DA10F1D8DD4E1003183F4 /* TSSLSocketClient.h */,
+				DE4DA1101D8DD4E1003183F4 /* TSSLSocketClient.m */,
+				DE4DA1111D8DD4E1003183F4 /* TSSLSocketException.h */,
+				DE4DA1121D8DD4E1003183F4 /* TSSLSocketException.m */,
+				DE4DA1131D8DD4E1003183F4 /* TTransport.h */,
+				DE4DA1141D8DD4E1003183F4 /* TTransportException.h */,
+				DE4DA1151D8DD4E1003183F4 /* TTransportException.m */,
+			);
+			path = transport;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DE4DA0D61D8DD482003183F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4DA13C1D8DD4E1003183F4 /* TNSStreamTransport.h in Headers */,
+				DE4DA1341D8DD4E1003183F4 /* TFramedTransport.h in Headers */,
+				DE4DA13A1D8DD4E1003183F4 /* TNSFileHandleTransport.h in Headers */,
+				DE4DA1291D8DD4E1003183F4 /* TApplicationException.h in Headers */,
+				DE4DA1181D8DD4E1003183F4 /* TBase.h in Headers */,
+				DE4DA11D1D8DD4E1003183F4 /* TMultiplexedProtocol.h in Headers */,
+				DE4DA1321D8DD4E1003183F4 /* TProcessorFactory.h in Headers */,
+				DE4DA1301D8DD4E1003183F4 /* TObjective-C.h in Headers */,
+				DE4DA11B1D8DD4E1003183F4 /* TCompactProtocol.h in Headers */,
+				DE4DA0DE1D8DD482003183F4 /* LibThrift.h in Headers */,
+				DE4DA1471D8DD4E1003183F4 /* TSharedProcessorFactory.h in Headers */,
+				DE4DA12D1D8DD4E1003183F4 /* TException.h in Headers */,
+				DE4DA12B1D8DD4E1003183F4 /* TBaseClient.h in Headers */,
+				DE4DA1201D8DD4E1003183F4 /* TProtocolDecorator.h in Headers */,
+				DE4DA1361D8DD4E1003183F4 /* THTTPClient.h in Headers */,
+				DE4DA13E1D8DD4E1003183F4 /* TSocketClient.h in Headers */,
+				DE4DA1441D8DD4E1003183F4 /* TTransport.h in Headers */,
+				DE4DA1311D8DD4E1003183F4 /* TProcessor.h in Headers */,
+				DE4DA1251D8DD4E1003183F4 /* TProtocolUtil.h in Headers */,
+				DE4DA1381D8DD4E1003183F4 /* TMemoryBuffer.h in Headers */,
+				DE4DA1191D8DD4E1003183F4 /* TBinaryProtocol.h in Headers */,
+				DE4DA1451D8DD4E1003183F4 /* TTransportException.h in Headers */,
+				DE4DA11F1D8DD4E1003183F4 /* TProtocol.h in Headers */,
+				DE4DA12F1D8DD4E1003183F4 /* Thrift.h in Headers */,
+				DE4DA1241D8DD4E1003183F4 /* TProtocolFactory.h in Headers */,
+				DE4DA1271D8DD4E1003183F4 /* TSocketServer.h in Headers */,
+				DE4DA1221D8DD4E1003183F4 /* TProtocolException.h in Headers */,
+				DE4DA1401D8DD4E1003183F4 /* TSSLSocketClient.h in Headers */,
+				DE4DA1421D8DD4E1003183F4 /* TSSLSocketException.h in Headers */,
+				DE4DA1331D8DD4E1003183F4 /* TAsyncTransport.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DE4DA0D81D8DD482003183F4 /* LibThrift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE4DA0E11D8DD482003183F4 /* Build configuration list for PBXNativeTarget "LibThrift" */;
+			buildPhases = (
+				DE4DA0D41D8DD482003183F4 /* Sources */,
+				DE4DA0D51D8DD482003183F4 /* Frameworks */,
+				DE4DA0D61D8DD482003183F4 /* Headers */,
+				DE4DA0D71D8DD482003183F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibThrift;
+			productName = LibThrift;
+			productReference = DE4DA0D91D8DD482003183F4 /* LibThrift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE4DA0D01D8DD482003183F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Apache Software Foundation";
+				TargetAttributes = {
+					DE4DA0D81D8DD482003183F4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5JBF7MD4UT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DE4DA0D31D8DD482003183F4 /* Build configuration list for PBXProject "LibThrift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE4DA0CF1D8DD482003183F4;
+			productRefGroup = DE4DA0DA1D8DD482003183F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE4DA0D81D8DD482003183F4 /* LibThrift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE4DA0D71D8DD482003183F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE4DA0D41D8DD482003183F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4DA1211D8DD4E1003183F4 /* TProtocolDecorator.m in Sources */,
+				DE4DA12A1D8DD4E1003183F4 /* TApplicationException.m in Sources */,
+				DE4DA11C1D8DD4E1003183F4 /* TCompactProtocol.m in Sources */,
+				DE4DA1281D8DD4E1003183F4 /* TSocketServer.m in Sources */,
+				DE4DA1261D8DD4E1003183F4 /* TProtocolUtil.m in Sources */,
+				DE4DA11E1D8DD4E1003183F4 /* TMultiplexedProtocol.m in Sources */,
+				DE4DA13F1D8DD4E1003183F4 /* TSocketClient.m in Sources */,
+				DE4DA11A1D8DD4E1003183F4 /* TBinaryProtocol.m in Sources */,
+				DE4DA13D1D8DD4E1003183F4 /* TNSStreamTransport.m in Sources */,
+				DE4DA12C1D8DD4E1003183F4 /* TBaseClient.m in Sources */,
+				DE4DA12E1D8DD4E1003183F4 /* TException.m in Sources */,
+				DE4DA1391D8DD4E1003183F4 /* TMemoryBuffer.m in Sources */,
+				DE4DA1461D8DD4E1003183F4 /* TTransportException.m in Sources */,
+				DE4DA1351D8DD4E1003183F4 /* TFramedTransport.m in Sources */,
+				DE4DA1231D8DD4E1003183F4 /* TProtocolException.m in Sources */,
+				DE4DA1481D8DD4E1003183F4 /* TSharedProcessorFactory.m in Sources */,
+				DE4DA1371D8DD4E1003183F4 /* THTTPClient.m in Sources */,
+				DE4DA1411D8DD4E1003183F4 /* TSSLSocketClient.m in Sources */,
+				DE4DA1431D8DD4E1003183F4 /* TSSLSocketException.m in Sources */,
+				DE4DA13B1D8DD4E1003183F4 /* TNSFileHandleTransport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DE4DA0DF1D8DD482003183F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE4DA0E01D8DD482003183F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE4DA0E21D8DD482003183F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5JBF7MD4UT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LibThrift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.apache.LibThrift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DE4DA0E31D8DD482003183F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5JBF7MD4UT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LibThrift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.apache.LibThrift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE4DA0D31D8DD482003183F4 /* Build configuration list for PBXProject "LibThrift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE4DA0DF1D8DD482003183F4 /* Debug */,
+				DE4DA0E01D8DD482003183F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE4DA0E11D8DD482003183F4 /* Build configuration list for PBXNativeTarget "LibThrift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE4DA0E21D8DD482003183F4 /* Debug */,
+				DE4DA0E31D8DD482003183F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE4DA0D01D8DD482003183F4 /* Project object */;
+}

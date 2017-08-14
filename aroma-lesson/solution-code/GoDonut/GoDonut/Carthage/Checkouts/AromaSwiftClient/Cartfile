@@ -1,0 +1,3 @@
+github "RedRoma/AromaThrift" "develop"
+github "RedRoma/SwiftExceptionCatcher"
+github "RedRoma/Sulcus" "develop"
