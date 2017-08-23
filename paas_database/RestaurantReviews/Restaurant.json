@@ -1,0 +1,42 @@
+{
+  "RestaurantReviews": {
+    "users": {
+            "12345": {
+                  "name": "David",
+                  "reviewID": [123]
+                  },
+            "67890": {
+                  "name": "Joy",
+                  "reviewID": [453]
+                  }
+              },
+    "reviews": {
+            "123": {
+                  "restaurantID": 6969,
+                  "star": 4,
+                  "byUser": 12345,
+                  "text": "This place is amaze balls!!!"
+                  },
+            "453": {
+                  "restaurantID": 4545,
+                  "star": 3,
+                  "byUser": 12345,
+                  "text": "This place is amaze balls!!!"
+                  }
+               },
+    "restaurants": {
+            "6969": {
+                  "name": "In-n-Out",
+                  "price": "$",
+                  "location": "123 address way",
+                  "reviews": [123]
+                  },
+            "4545": {
+                  "name": "Burger King",
+                  "price": "$",
+                  "location": "45 address way",
+                  "reviews": [453]
+                  }
+              }
+            }
+}
