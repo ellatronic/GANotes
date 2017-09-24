@@ -1,0 +1,6 @@
+framework module Pods_OAuthLesson {
+  umbrella header "Pods-OAuthLesson-umbrella.h"
+
+  export *
+  module * { export * }
+}
